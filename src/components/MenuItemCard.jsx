@@ -1,17 +1,14 @@
-function MenuItemCard() {
-  const item = {
-    name: 'Nasi Lemak Ayam',
-    description: 'Coconut rice, fried chicken, sambal, egg and peanuts',
-    price: 7.5,
-    available: true,
-  }
-
+function MenuItemCard({ item }) {
   return (
     <article className="card menu-item-card">
-      <div className="thumb" aria-hidden="true">
-        {item.name.charAt(0)}
+      <div className="thumb-container">
+        <div className="thumb" aria-hidden="true">
+          {item.name.charAt(0)}
+        </div>
+        <span className="badge">{item.category}</span>
       </div>
-      <div>
+      
+      <div className="card-body">
         <h2>{item.name}</h2>
         <p className="muted">{item.description}</p>
         <p className="price">RM {item.price.toFixed(2)}</p>
