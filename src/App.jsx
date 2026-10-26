@@ -141,7 +141,11 @@ function App() {
         {selectedVendor && (
           <section>
             <h2 className="section-title">Menu: {selectedVendor.name}</h2>
-            <MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
+            <MenuList
+              key={selectedVendor.id}
+              items={selectedVendor.menu}
+              onAdd={handleAddToCart}
+            />
           </section>
         )}
       </>
