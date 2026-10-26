@@ -1,0 +1,112 @@
+{
+  "vendors": [
+    {
+      "id": "2414551-kafe-asma",
+      "name": "Kafe Mahallah Asma",
+      "location": "Mahallah Asma, Ground Floor",
+      "openHours": "7:00 am - 10:00 pm",
+      "isOpen": true,
+      "menu": [
+        {
+          "id": "2414551-my-1",
+          "name": "Nasi Ayam Gepuk",
+          "description": "Fried chicken with sambal and rice",
+          "price": 7.5,
+          "category": "Rice",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-my-2",
+          "name": "Nasi Goreng Kampung",
+          "description": "Traditional village-style fried rice",
+          "price": 6.5,
+          "category": "Rice",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-my-3",
+          "name": "Korean Ramen Spicy Noodles",
+          "description": "Spicy ramen noodles with various toppings",
+          "price": 6.0,
+          "category": "Noodles",
+          "popular": false,
+          "available": true
+        },
+        {
+          "id": "2414551-my-4",
+          "name": "Mee Goreng Mamak",
+          "description": "Spiced yellow noodles stir-fried",
+          "price": 6.0,
+          "category": "Noodles",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-my-5",
+          "name": "Teh Tarik",
+          "description": "Pulled milk tea",
+          "price": 2.5,
+          "category": "Drinks",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-my-6",
+          "name": "Milo Ais",
+          "description": "Milo with ice",
+          "price": 2.8,
+          "category": "Drinks",
+          "popular": false,
+          "available": false
+        },
+        {
+          "id": "2414551-my-7",
+          "name": "French Fries",
+          "description": "Crispy salted potato fries",
+          "price": 4.0,
+          "category": "Sides",
+          "popular": false,
+          "available": true
+        },
+        {
+          "id": "2414551-my-8",
+          "name": "Cucur Badak",
+          "description": "Sweet potato fritters with spicy coconut filling",
+          "price": 2.0,
+          "category": "Sides",
+          "popular": true,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "2414551-kafe-aminah",
+      "name": "Kafe Mahallah Aminah",
+      "location": "Mahallah Aminah, Ground Floor",
+      "openHours": "8:00 am - 9:00 pm",
+      "isOpen": true,
+      "menu": [
+        {
+          "id": "2414551-ami-1",
+          "name": "Nasi Ayam Penyet",
+          "description": "Smashed fried chicken with sambal and rice",
+          "price": 9.0,
+          "category": "Rice",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-2",
+          "name": "Air Bandung",
+          "description": "Rose syrup with milk",
+          "price": 3.0,
+          "category": "Drinks",
+          "popular": true,
+          "available": true
+        }
+      ]
+    }
+  ]
+}
