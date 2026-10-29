@@ -81,10 +81,10 @@
         }
       ]
     },
-    {
-      "id": "2414551-kafe-aminah",
-      "name": "Kafe Mahallah Aminah",
-      "location": "Mahallah Aminah, Ground Floor",
+{
+      "id": "2414551-kafe-404",
+      "name": "404 Kafe",
+      "location": "IIUM Central Building, Ground Floor",
       "openHours": "8:00 am - 9:00 pm",
       "isOpen": true,
       "menu": [
@@ -105,8 +105,204 @@
           "category": "Drinks",
           "popular": true,
           "available": true
+        },
+        {
+          "id": "2414551-ami-3",
+          "name": "Nasi Goreng Kampung",
+          "description": "Traditional fried rice with anchovies, water spinach, and bird's eye chili",
+          "price": 7.0,
+          "category": "Rice",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-4",
+          "name": "Nasi Lemak Ayam Goreng",
+          "description": "Fragrant coconut rice served with crispy fried chicken, anchovies, peanuts, cucumber, boiled egg, and sambal",
+          "price": 8.5,
+          "category": "Rice",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-5",
+          "name": "Mee Goreng Mamak",
+          "description": "Stir-fried yellow noodles with tofu, potatoes, bean sprouts, and spicy sauce",
+          "price": 6.5,
+          "category": "Noodles",
+          "popular": false,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-6",
+          "name": "Kuey Teow Goreng Kerang",
+          "description": "Wok-charred flat rice noodles tossed with cockles, chives, and egg",
+          "price": 7.0,
+          "category": "Noodles",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-7",
+          "name": "Roti Canai (2 pcs) with Dhal",
+          "description": "Flaky flatbread served with hot lentil curry",
+          "price": 3.0,
+          "category": "Breakfast & Bites",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-8",
+          "name": "Teh Tarik",
+          "description": "Hot pulled milk tea with a rich, frothy top",
+          "price": 2.5,
+          "category": "Drinks",
+          "popular": true,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-9",
+          "name": "Iced Lemon Tea",
+          "description": "Refreshing black tea brewed with fresh lemon slices",
+          "price": 3.5,
+          "category": "Drinks",
+          "popular": false,
+          "available": true
+        },
+        {
+          "id": "2414551-ami-10",
+          "name": "Fresh Coconut Shake",
+          "description": "Blended young coconut water and flesh topped with vanilla ice cream",
+          "price": 5.5,
+          "category": "Drinks",
+          "popular": true,
+          "available": true
         }
       ]
     }
+    ,
+    {
+        "id": "2413839-my-restaurant",
+        "name": "The Savory Bakery",
+        "location": "Mahallah Zubair, Block H",
+        "openHours": "10:00 am - 10:00 pm",
+        "isOpen": true,
+        "menu": [
+            {
+                "id": "2413839-my-1",
+                "name": "Prawn Sushi Bake",
+                "description": "Creamy baked sushi with prawns.",
+                "price": 7,
+                "category": "Sushi",
+                "available": true
+            },
+            {
+                "id": "2413839-my-2",
+                "name": "Teriyaki Sushi Bake",
+                "description": "Baked sushi with teriyaki chicken.",
+                "price": 7,
+                "category": "Sushi",
+                "available": true
+            },
+            {
+                "id": "2413839-my-3",
+                "name": "Lemonade",
+                "description": "Cold, sweet, and tart lemonade.",
+                "price": 3,
+                "category": "Drinks",
+                "available": true
+            },
+            {
+                "id": "2413839-my-4",
+                "name": "Crab Stick Sushi Bake",
+                "description": "Baked sushi with flaky crab.",
+                "price": 6.5,
+                "category": "Sushi",
+                "available": true
+            },
+            {
+                "id": "2413839-my-5",
+                "name": "Iced Matcha Latte",
+                "description": "Iced matcha with fresh milk.",
+                "price": 4.5,
+                "category": "Drinks",
+                "available": true
+            },
+            {
+                "id": "2413839-my-6",
+                "name": "Butter Croissant",
+                "description": "Flaky, golden, buttery French pastry.",
+                "price": 3.5,
+                "category": "Bakery",
+                "available": true
+            },
+            {
+                "id": "2413839-my-7",
+                "name": "Chocolate Muffin",
+                "description": "Moist chocolate muffin with chips.",
+                "price": 4,
+                "category": "Bakery",
+                "available": true
+            },
+            {
+                "id": "2413839-my-8",
+                "name": "Sausage Roll",
+                "description": "Savory sausage in crispy pastry.",
+                "price": 3,
+                "category": "Bakery",
+                "available": true
+            }
+        ]
+    }
+    ,
+     {
+    "id": "2411601-ayam-gepuk-king",
+    "name": "Ayam Gepuk King",
+    "location": "Mahallah Zubair, Cafeteria",
+    "openHours": "10:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "1601-Set-A",
+        "name": "Ayam Gepuk Set A",
+        "price": 9.9,
+        "category": "Main Dish",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "1601-Set-B",
+        "name": "Ayam Gepuk Set B",
+        "price": 11.9,
+        "category": "Main Dish",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "1601-Set-C",
+        "name": "Ayam Gepuk Set C",
+        "price": 14.9,
+        "category": "Main Dish",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "1601-Telur-Mata",
+        "name": "Telur Mata",
+        "price": 2.0,
+        "category": "Add Ons",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "1601-Kangkung-Goreng",
+        "name": "Kangkung Goreng",
+        "price": 2.0,
+        "category": "Add Ons",
+        "popular": true,
+        "available": false
+      }
+    ]
+  }
   ]
 }
