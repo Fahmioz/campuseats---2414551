@@ -28,7 +28,7 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - One thing the AI got wrong and how I fixed it: The first VendorPage filter used params.set() directly, which does not trigger navigation. I fixed it by destructuring setParams from useSearchParams() and calling setParams({ cat: ... }) on button click. Also fixed an ESLint rule about calling setState directly in an effect by wrapping the fetch in an async function inside useEffect.
 
 ## Week 5
-- Tool(s): None
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): Gemini And Claude
+- What I asked for: Help implementing Lab 5 Firebase setup and authentication, fix connection with firebase error, help adding forgot password feature
+- What I kept, changed or rejected, and why: I kept the Firebase configuration, email/password authentication
+- One thing the AI got wrong and how I fixed it: The first dependency edit duplicated the Firebase entry after npm added it automatically. I removed the duplicate and verified the lockfile, lint, and production build.

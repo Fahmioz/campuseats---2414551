@@ -5,7 +5,8 @@ export function useLocalStorage(key, initialValue) {
     try {
       const saved = localStorage.getItem(key)
       return saved !== null ? JSON.parse(saved) : initialValue
-    } catch {
+    } catch (err) {
+      console.error(`Unable to read local storage key "${key}".`, err)
       return initialValue
     }
   })
@@ -13,8 +14,8 @@ export function useLocalStorage(key, initialValue) {
   useEffect(() => {
     try {
       localStorage.setItem(key, JSON.stringify(value))
-    } catch {
-      // storage full or blocked: keep working
+    } catch (err) {
+      console.error(`Unable to write local storage key "${key}".`, err)
     }
   }, [key, value])
 
